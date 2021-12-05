@@ -33,10 +33,10 @@ renderItems();
 
 function addItem() {
   const newItem = document.querySelector(".form-new-item").value;
-//   console.log(btnAddItem, newItem);
+  //   console.log(btnAddItem, newItem);
   items.push(newItem);
   renderItems();
-//   console.log(items);
+  //   console.log(items);
 }
 btnAddItem.addEventListener("click", addItem);
 
@@ -47,6 +47,8 @@ function deleteItem(id) {
 }
 function deleteItemHandler(e) {
   {
+    e.preventDefault();
+
     const itemId = e.target.dataset.id;
     const parent = e.target.closest(".checklist-item");
     parent.remove();
