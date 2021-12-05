@@ -33,14 +33,14 @@ renderItems();
 
 function addItem() {
   const newItem = document.querySelector(".form-new-item").value;
-  console.log(btnAddItem, newItem);
+//   console.log(btnAddItem, newItem);
   items.push(newItem);
   renderItems();
-  console.log(items);
+//   console.log(items);
 }
 btnAddItem.addEventListener("click", addItem);
 
-console.log(items);
+// console.log(items);
 function deleteItem(id) {
   items[id] = undefined;
   renderItems();
@@ -50,9 +50,9 @@ function deleteItemHandler(e) {
     const itemId = e.target.dataset.id;
     const parent = e.target.closest(".checklist-item");
     parent.remove();
-    console.log("To be removed:", items[itemId]);
+    // console.log("To be removed:", items[itemId]);
     deleteItem(itemId);
-    console.log("Items: ", items);
+    // console.log("Items: ", items);
   }
 }
 
