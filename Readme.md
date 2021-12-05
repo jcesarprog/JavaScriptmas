@@ -7,7 +7,7 @@
 <img src="/2021/03-dont-scare-your-relatives/screenshot.png" alt="challenge 03 - Don't Scare Your Relatives">
 </a>
 <hr/>
-![2021 - Challenge 04 - Christmas Shopping List](https://jcesarprog.github.io/JavaScriptmas/2021/04-shopping-checklist/index.html)
+!(2021 - Challenge 04 - Christmas Shopping List)[https://jcesarprog.github.io/JavaScriptmas/2021/04-shopping-checklist/index.html]
 ![2021 - Challenge 04 - Christmas Shopping List](/2021/04-shopping-checklist/screenshot.png)
 <a href="https://jcesarprog.github.io/JavaScriptmas/2021/04-shopping-checklist/index.html" target="_blank" rel="noopener">
 2021 - Challenge 04 - Christmas Shopping List
