@@ -14,3 +14,4 @@
 <br>
 <img src="/2021/04-shopping-checklist/screenshot.png" alt="challenge 03 - Don't Scare Your Relatives">
 </a>
+<hr/>
